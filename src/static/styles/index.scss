@@ -1,0 +1,79 @@
+/*
+ * 在scss中引用OSS图片
+ * @param $name
+ * @return 图片url
+ * @example background: url(getStaticImage('icircle/guide/bg.png'));
+*/
+@function getStaticImage($name) {
+  @return '' + $name;
+}
+
+page {
+  color: $font-main-color;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+// 常用class
+.page {
+  padding: 15px 10px;
+}
+
+.page-card {
+  border-radius: $radius-main;
+  background-color: #fff;
+  padding: 10px 14px;
+}
+
+// flex
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.items-start {
+  align-items: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+// position
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+
+
+.mt-5 {
+  margin-top: 5px
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+
